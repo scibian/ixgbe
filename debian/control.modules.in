@@ -1,20 +1,21 @@
 Source: ixgbe
 Section: unknown
 Priority: optional
-Maintainer: M'hamed Bouaziz <mb6df44n@dsp0853854.postes.calibre.edf.fr>
+Maintainer: M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.5
 
-Package: ixgbe-modules-_KVERS_
-Architecture: any
+Package: ixgbe-kernel-amd64
+Architecture: amd64
+Section: kernel
+Priority: optional
+Depends: ${misc:Depends},ixgbe-modules-_KVERS_-amd64
+Description: This is a metapackage that will depends on the latest version of Intel ixgbe network driver
+
+Package: ixgbe-modules-_KVERS_-amd64
+Architecture: amd64
+ection: kernel
+Priority: optional
+Depends: ${misc:Depends}
 Provides: ixgbe-modules
-Description: ixgbe modules for Linux (kernel _KVERS_).
- This package contains the set of loadable kernel modules for the
- <description>.
- .
- This package contains the compiled kernel modules for _KVERS_
- .
- If you have compiled your own kernel, you will most likely need to build
- your own ixgbe-modules. The ixgbe-source package has been
- provided for use with the Debian's module-assistant or kernel-package
- utilities to produce a version of ixgbe-modules for your kernel.
+Description: ixgbe modules for Linux (kernel _KVERS_). This package contains the set of loadable kernel modules for the ixgbe
