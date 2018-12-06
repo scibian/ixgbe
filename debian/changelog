@@ -1,5 +1,5 @@
-ixgbe (5.3.8-1) unstable; urgency=low
+ixgbe-modules-modules (5.3.8-0sci9u1) scibian9; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- M'hamed Bouaziz <mb6df44n@dsp0853854.postes.calibre.edf.fr>  Thu, 06 Dec 2018 13:51:17 +0100
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Thu, 06 Dec 2018 13:51:17 +0100
