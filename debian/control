@@ -1,22 +1,23 @@
 Source: ixgbe
 Section: unknown
 Priority: optional
-Maintainer: M'hamed Bouaziz <mb6df44n@dsp0853854.postes.calibre.edf.fr>
+Maintainer: M'hamed Bouaziz <m-hamed-externe.bouaziz@.edf.fr>
 Build-Depends: debhelper (>= 9), bzip2
 Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/ixgbe.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/ixgbe.git;a=summary
+Homepage: https://downloadcenter.intel.com
+Vcs-Git: https://github.com/scibian/ixgbe.git
+Vcs-Browser: https://downloadcenter.intel.com/downloads/eula/28246/Intel-Network-Adapter-Driver-for-PCIe-Intel-10-Gigabit-Ethernet-Network-Connections-Under-Linux-?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F28246%2Feng%2Fixgbe-5.3.8.tar.gz 
 
-Package: ixgbe-utils
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description> <insert long description, indented with spaces>
+Package: ixgbe-modules-amd64
+Architecture: amd64
+Section: kernel
+Priority: optional
+Depends: ${misc:Depends},ixgbe-kernel-5.3.8-amd64
+Description: This is a metapackage that will depends on the latest version of Intel ixgbe network driver
 
-Package: ixgbe-source
-Architecture: all
-Depends: module-assistant, debhelper (>= 7), make, bzip2
-Description: source for the ixgbe driver.
- This package provides the source code for the ixgbe kernel modules.
- The ixgbe package is also required in order to make use of these
- modules. Kernel source or headers are required to compile these modules.
+Package: ixgbe-modules-5.3.8-amd64
+Architecture: amd64
+Section: kernel
+Priority: optional
+Depends: ${misc:Depends}
+Description: This is the package that will install the latest version of Intel ixgbe network driver
