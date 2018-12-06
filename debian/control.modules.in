@@ -1,4 +1,4 @@
-Source: ixgbe
+Source: ixgbe-modules
 Section: unknown
 Priority: optional
 Maintainer: M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>
