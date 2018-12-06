@@ -1,4 +1,4 @@
-ixgbe-modules-modules (5.3.8-0sci9u1) scibian9; urgency=medium
+ixgbe-modules (5.3.8-0sci9u1) scibian9; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
