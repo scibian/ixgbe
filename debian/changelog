@@ -1,0 +1,5 @@
+ixgbe (5.3.8-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- M'hamed Bouaziz <mb6df44n@dsp0853854.postes.calibre.edf.fr>  Thu, 06 Dec 2018 13:51:17 +0100
