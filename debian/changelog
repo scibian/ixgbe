@@ -1,3 +1,9 @@
+ixgbe-modules (5.3.8-0sci9u1.1) scibian9; urgency=medium
+
+  * correct control file 
+
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 11:53:54 +0100
+
 ixgbe-modules (5.3.8-0sci9u1) scibian9; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
