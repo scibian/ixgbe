@@ -1,3 +1,9 @@
+ixgbe (5.3.8-0sci9u10) scibian9; urgency=medium
+
+  * Kernel headers dependecy
+
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 15:35:15 +0100
+
 ixgbe (5.3.8-0sci9u9) scibian9; urgency=medium
 
   * add kernel header dependency
