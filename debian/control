@@ -3,7 +3,7 @@ Section: unknown
 Priority: optional
 Maintainer: Mhamed Bouaziz <m-hamed-externe.bouaziz@.edf.fr>
 Build-Depends: debhelper (>= 9), bzip2
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://downloadcenter.intel.com
 Vcs-Git: https://github.com/scibian/ixgbe.git
 Vcs-Browser: https://downloadcenter.intel.com/downloads/eula/28246/Intel-Network-Adapter-Driver-for-PCIe-Intel-10-Gigabit-Ethernet-Network-Connections-Under-Linux-?httpDown=https%3A%2F%2Fdownloadmirror.intel.com%2F28246%2Feng%2Fixgbe-5.3.8.tar.gz 
