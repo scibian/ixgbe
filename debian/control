@@ -1,4 +1,4 @@
-Source: ixgbe-modules
+Source: ixgbe
 Section: unknown
 Priority: optional
 Maintainer: Scibian Project <packaging@scibian.org>
