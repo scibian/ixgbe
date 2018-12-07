@@ -1,3 +1,9 @@
+ixgbe-modules (5.3.8-0sci9u6) scibian9; urgency=medium
+
+  * correct packages names
+
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 14:08:52 +0100
+
 ixgbe-modules (5.3.8-0sci9u5) scibian9; urgency=medium
 
   * Source name must be the same name of the repo 
