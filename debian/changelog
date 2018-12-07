@@ -1,8 +1,14 @@
+ixgbe-modules (5.3.8-0sci9u1.4) scibian9; urgency=medium
+
+  * Source name must be the same name of the repo 
+
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 13:45:54 +0100
+
 ixgbe-modules (5.3.8-0sci9u1.3) scibian9; urgency=medium
 
   * Correct Vcs-* field"
 
- -- M'hamed Bouaziz <mb6df44n@dsp0853854.postes.calibre.edf.fr>  Fri, 07 Dec 2018 13:36:49 +0100
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 13:36:49 +0100
 
 ixgbe-modules (5.3.8-0sci9u1.2) scibian9; urgency=medium
 
