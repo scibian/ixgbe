@@ -1,3 +1,9 @@
+ixgbe-modules (5.3.8-0sci9u1.2) scibian9; urgency=medium
+
+  * correct maintainer field
+
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 13:19:25 +0100
+
 ixgbe-modules (5.3.8-0sci9u1.1) scibian9; urgency=medium
 
   * correct control file 
