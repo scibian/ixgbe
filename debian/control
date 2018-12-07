@@ -8,14 +8,14 @@ Homepage: http://www.intel.com
 Vcs-Git: https://github.com/scibian/ixgbe.git
 Vcs-Browser: https://github.com/scibian/ixgbe 
 
-Package: ixgbe-modules-amd64
+Package: ixgbe-amd64
 Architecture: amd64
 Section: kernel
 Priority: optional
 Depends: ${misc:Depends},ixgbe-kernel-5.3.8-amd64
 Description: This is a metapackage that will depends on the latest version of Intel ixgbe network driver
 
-Package: ixgbe-modules-5.3.8-amd64
+Package: ixgbe-5.3.8-amd64
 Architecture: amd64
 Section: kernel
 Priority: optional
