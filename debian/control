@@ -1,7 +1,7 @@
 Source: ixgbe-modules
 Section: unknown
 Priority: optional
-Maintainer: M'hamed Bouaziz <m-hamed-externe.bouaziz@.edf.fr>
+Maintainer: Mhamed Bouaziz <m-hamed-externe.bouaziz@.edf.fr>
 Build-Depends: debhelper (>= 9), bzip2
 Standards-Version: 3.9.5
 Homepage: https://downloadcenter.intel.com
