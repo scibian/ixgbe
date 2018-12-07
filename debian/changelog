@@ -1,3 +1,9 @@
+ixgbe (5.3.8-0sci9u9) scibian9; urgency=medium
+
+  * add kernel header dependency
+
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 15:03:23 +0100
+
 ixgbe (5.3.8-0sci9u8) scibian9; urgency=medium
 
   * Renaming files
