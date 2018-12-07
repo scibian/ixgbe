@@ -1,3 +1,9 @@
+ixgbe-modules (5.3.8-0sci9u7) scibian9; urgency=medium
+
+  * correct depends
+
+ -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 14:14:43 +0100
+
 ixgbe-modules (5.3.8-0sci9u6) scibian9; urgency=medium
 
   * correct packages names
