@@ -1,40 +1,40 @@
-ixgbe-modules (5.3.8-0sci9u7) scibian9; urgency=medium
+ixgbe (5.3.8-0sci9u7) scibian9; urgency=medium
 
   * correct depends
 
  -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 14:14:43 +0100
 
-ixgbe-modules (5.3.8-0sci9u6) scibian9; urgency=medium
+ixgbe (5.3.8-0sci9u6) scibian9; urgency=medium
 
   * correct packages names
 
  -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 14:08:52 +0100
 
-ixgbe-modules (5.3.8-0sci9u5) scibian9; urgency=medium
+ixgbe (5.3.8-0sci9u5) scibian9; urgency=medium
 
   * Source name must be the same name of the repo 
 
  -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 13:45:54 +0100
 
-ixgbe-modules (5.3.8-0sci9u4) scibian9; urgency=medium
+ixgbe (5.3.8-0sci9u4) scibian9; urgency=medium
 
   * Correct Vcs-* field"
 
  -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 13:36:49 +0100
 
-ixgbe-modules (5.3.8-0sci9u3) scibian9; urgency=medium
+ixgbe (5.3.8-0sci9u3) scibian9; urgency=medium
 
   * correct maintainer field
 
  -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 13:19:25 +0100
 
-ixgbe-modules (5.3.8-0sci9u2) scibian9; urgency=medium
+ixgbe (5.3.8-0sci9u2) scibian9; urgency=medium
 
   * correct control file 
 
  -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Fri, 07 Dec 2018 11:53:54 +0100
 
-ixgbe-modules (5.3.8-0sci9u1) scibian9; urgency=medium
+ixgbe (5.3.8-0sci9u1) scibian9; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 

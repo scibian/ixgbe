@@ -1,18 +1,18 @@
-Source: ixgbe-modules
+Source: ixgbe
 Section: unknown
 Priority: optional
 Maintainer: M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 
 Package: ixgbe-kernel-amd64
 Architecture: amd64
 Section: kernel
 Priority: optional
-Depends: ${misc:Depends},ixgbe-modules-_KVERS_-amd64
+Depends: ${misc:Depends},ixgbe-_KVERS_-amd64
 Description: This is a metapackage that will depends on the latest version of Intel ixgbe network driver
 
-Package: ixgbe-modules-_KVERS_-amd64
+Package: ixgbe-_KVERS_-amd64
 Architecture: amd64
 ection: kernel
 Priority: optional
