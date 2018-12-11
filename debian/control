@@ -12,12 +12,12 @@ Package: ixgbe-amd64
 Architecture: amd64
 Section: kernel
 Priority: optional
-Depends: ${misc:Depends},ixgbe-5.3.8-amd64
-Description: This is a metapackage that will depends on the latest version of Intel ixgbe network driver
+Depends: ${misc:Depends},ixgbe-modules-4.9.0-8-amd64
+Description: This is a metapackage that will depends on ixgbe-module binary package
 
-Package: ixgbe-5.3.8-amd64
+Package: ixgbe-modules-4.9.0-8-amd64
 Architecture: amd64
 Section: kernel
 Priority: optional
 Depends: ${misc:Depends}
-Description: This is the package that will install the latest version of Intel ixgbe network driver
+Description: This is the package that will install Intel ixgbe network driver compiled for the kernel version 4.9.0-8-amd64
