@@ -1,1 +1,1 @@
-ixgbe.ko lib/modules/*/kernel/drivers/net/ethernet/intel/ 
+ixgbe.ko /lib/modules/4.9.0-8-amd64/updates/drivers/net/ethernet/intel/ixgbe 
