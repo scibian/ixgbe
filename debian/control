@@ -3,7 +3,7 @@ Section: unknown
 Priority: optional
 Maintainer: Scibian Project <packaging@scibian.org>
 Build-Depends: debhelper (>= 9), bzip2, linux-headers-4.9.0-8-amd64
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.intel.com
 Vcs-Git: https://github.com/scibian/ixgbe.git
 Vcs-Browser: https://github.com/scibian/ixgbe 
@@ -14,10 +14,27 @@ Section: kernel
 Priority: optional
 Depends: ${misc:Depends},ixgbe-modules-4.9.0-8-amd64
 Description: This is a metapackage that will depends on ixgbe-module binary package
+ This the ixgbe network driver for Linux.
 
 Package: ixgbe-modules-4.9.0-8-amd64
 Architecture: amd64
 Section: kernel
 Priority: optional
 Depends: ${misc:Depends}
-Description: This is the package that will install Intel ixgbe network driver compiled for the kernel version 4.9.0-8-amd64
+Description: Intel ixgbe network driver for kernel 4.9.0-8-amd64
+ This is the most current release of the ixgbe driver for Linux, which
+ supports kernel versions 2.6.18 up through 4.19. It also has been tested on
+ the following distributions:
+ .
+  - RHEL 6.10
+  - RHEL 7.5
+  - SLES 12SP3
+  - SLES 15
+  - Ubuntu* 18.04
+ .
+ Note that while we attempt to keep the driver version number (5.5.3) in sync
+ with its counterpart in the Linux kernel that has similar functionality, this
+ is far from authoritative. If you are using a newer kernel.org kernel or
+ distro it is likely that its ixgbe driver is at least as up to date as the
+ out of tree (OOT) driver found here.
+

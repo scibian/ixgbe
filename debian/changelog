@@ -1,3 +1,28 @@
+ixgbe (5.5.2-2sci9u1) scibian9; urgency=medium
+
+  * new scibian release
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Thu, 07 Mar 2019 18:31:31 +0100
+
+ixgbe (5.5.2-1.1) scibian9; urgency=medium
+
+  * Non-maintainer upload.
+  * Shortened description of package ixgbe-modules-4.9.0-8-amd64 that was too
+    long (lintian error)
+  * Deleted ITP bug reference in the first changelog entry because was
+    incorrect: it was a simple template example (lintian warning)
+  * Corrected copyright file reporting correct upstream author license instead
+    of dh_make-todo-boilerplate (lintian error)
+  * updated ancient policy standard 3.9.6 to 3.9.8 (lintian warning)
+
+ -- Paolo Didonè <dido@nonpenso.org>  Thu, 07 Mar 2019 09:51:50 +0100
+
+ixgbe (5.5.2-1) scibian9; urgency=medium
+
+  * New upstream release
+
+ -- Paolo Didonè <dido@nonpenso.org>  Thu, 07 Mar 2019 09:49:55 +0100
+
 ixgbe (5.3.8-0sci9u12) scibian9; urgency=medium
 
   * Change install path if ixgbe.ko file 
@@ -66,6 +91,6 @@ ixgbe (5.3.8-0sci9u2) scibian9; urgency=medium
 
 ixgbe (5.3.8-0sci9u1) scibian9; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- M'hamed Bouaziz <m-hamed-externe.bouaziz@edf.fr>  Thu, 06 Dec 2018 13:51:17 +0100
