@@ -16,7 +16,7 @@ Depends: ${misc:Depends},ixgbe-modules-4.9.0-8-amd64
 Description: This is a metapackage that will depends on ixgbe-module binary package
  This the ixgbe network driver for Linux.
 
-Package: ixgbe-modules-4.9.0-8-amd64
+Package: ixgbe-modules-4.9.0-9-amd64
 Architecture: amd64
 Section: kernel
 Priority: optional
