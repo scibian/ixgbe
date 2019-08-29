@@ -1,3 +1,9 @@
+ixgbe (5.5.2-2sci9u4) scibian9; urgency=medium
+
+  * correct a typo on the last version
+
+ -- Nicolas Meaux <nicolas-externe.meaux@edf.fr>  Thu, 29 Aug 2019 13:35:20 +0200
+
 ixgbe (5.5.2-2sci9u3) scibian9; urgency=medium
 
   * New release built for kernel version 4.9.0-9-amd64.
