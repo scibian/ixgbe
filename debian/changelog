@@ -1,4 +1,4 @@
-ixgbe (5.5.2-2sci9u5) scibian9; urgency=medium
+ixgbe-modules (5.5.2-2sci9u5) scibian9; urgency=medium
 
   * New release built for kernel ABI 11
 
