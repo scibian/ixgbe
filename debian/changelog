@@ -1,3 +1,9 @@
+ixgbe-modules (5.5.2-2sci9u7) scibian9; urgency=medium
+
+  * New release  
+
+ -- MHamed Bouaziz <mhamed-externe.bouaziz@edf.fr>  Thu, 27 Feb 2020 11:42:14 +0100
+
 ixgbe-modules (5.5.2-2sci9u6) scibian9; urgency=medium
 
   * New release with the correct source name
