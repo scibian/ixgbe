@@ -1,3 +1,9 @@
+ixgbe-modules (5.5.2-2sci9u9) scibian9; urgency=medium
+
+  * New release built for kernel ABI 12
+
+ -- Tàzio Gennuso <tazio-externe.gennuso@edf.fr>  Wed, 22 Jul 2020 11:33:00 +0200
+
 ixgbe-modules (5.5.2-2sci9u8) scibian9; urgency=medium
 
   * Make package build on any host
