@@ -1,3 +1,9 @@
+ixgbe-modules (5.5.2-2sci9u13) scibian9; urgency=medium
+
+  * Bug fix to build it
+
+ -- Mathieu Chouquet-Stringer <mathieu-externe.chouquet-stringer@edf.fr>  Wed, 20 Apr 2022 18:16:41 +0200
+
 ixgbe-modules (5.5.2-2sci9u12) scibian9; urgency=medium
 
   * New release built for kernel ABI 18
