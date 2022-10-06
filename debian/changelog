@@ -1,3 +1,9 @@
+ixgbe-modules (5.5.2-2sci9u14) scibian9; urgency=medium
+
+  * New release built for kernel 4.9 ABI 19
+
+ -- KWAME AMEDODJI <kwame-externe.amedodji@edf.fr>  Sun, 11 Sep 2022 15:27:59 +0200
+
 ixgbe-modules (5.5.2-2sci9u13) scibian9; urgency=medium
 
   * Bug fix to build it
